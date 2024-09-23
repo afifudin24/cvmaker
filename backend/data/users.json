@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "LohGItu",
+    "email": "kocakbanget@gmail.com",
+    "password": "$2a$08$yGK7xnjPo..TsXnud00WwuA0U1J0iMOljoWmd9wVun5LwHVPcgD.2",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "name": "AW",
+    "email": "aw@gmail.com",
+    "password": "$2a$08$yGK7xnjPo..TsXnud00WwuA0U1J0iMOljoWmd9wVun5LwHVPcgD.2",
+    "role": "user"
+  },
+  {
+    "id": 453,
+    "name": "Apip",
+    "email": "aw@gmail.com",
+    "password": "$2a$08$yGK7xnjPo..TsXnud00WwuA0U1J0iMOljoWmd9wVun5LwHVPcgD.2",
+    "role": "user"
+  },
+  {
+    "id": 750,
+    "name": "Admin Asik",
+    "email": "admin@gmail.com",
+    "password": "$2a$08$Ik2CvPUcO3Ni43Qsn4ag6.Rb1bRa6vB.rvAQcy/KECYsDiEZIcDcS",
+    "role": "admin"
+  },
+  {
+    "id": 552,
+    "name": "Akun Baru",
+    "email": "akunbaru@gmail.com",
+    "password": "$2a$08$kfOX14JvLZ7CAbMRToGcMeH6.Cd5xAMA1CSrmh6EZJvG9ofXuhYNO",
+    "role": "user"
+  },
+  {
+    "id": 551,
+    "name": "Afif Waliyudin",
+    "email": "afifrider507@gmail.com",
+    "password": "",
+    "role": "user"
+  },
+  {
+    "id": 248,
+    "name": "AW ZhiaoK",
+    "email": "awzhiao@gmail.com",
+    "password": "",
+    "role": "user"
+  }
+]
