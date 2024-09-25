@@ -16,7 +16,7 @@ router.post('/register', authController.register);
 
 // Login user
 router.post('/login', authController.login);
-// router.post('/logout', authController.logout);
+router.post('/logout', authController.logout);
 
 // Route untuk autentikasi Google
 // router.get(

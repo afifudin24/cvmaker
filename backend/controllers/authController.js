@@ -94,12 +94,17 @@ const AuthController = {
     }
   },
 
-  // Logout User (Jika Menggunakan Refresh Token, Implementasikan di Sini)
   logout: (req, res) => {
-    // Implementasi logout tergantung pada strategi autentikasi yang digunakan
+    // Clear the JWT cookie
+    res.clearCookie('token', {
+      httpOnly: true, // Make sure to match the options used in the login
+      secure: false, // Set to true in production if using HTTPS
+      sameSite: 'Strict',
+    });
+  
     res.json({ message: 'Logout berhasil' });
   },
-
+  
   // Mendapatkan Profile User (Protected Route)
   getProfile: async (req, res) => {
     try {
